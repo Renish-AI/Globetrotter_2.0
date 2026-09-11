@@ -1,0 +1,7 @@
+{
+  "name": "Travel Destinations Showcase",
+  "description": "A travel discovery webpage featuring interactive destination highlights, curated travel experiences, and responsive navigation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
