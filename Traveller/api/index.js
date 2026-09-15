@@ -49,7 +49,7 @@ app.post('/api/ai/generate-itinerary', async (req, res) => {
       Do not include any markdown formatting, backticks, or extra text. Just the JSON object.
     `;
 
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.6-flash' });
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
