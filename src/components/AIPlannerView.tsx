@@ -63,9 +63,9 @@ export const AIPlannerView: React.FC = () => {
             <div className="flex-1">
               <label className="block text-xs uppercase tracking-wider text-white/70 font-semibold mb-1.5">Budget</label>
               <select value={budget} onChange={(e) => setBudget(e.target.value)} className="w-full px-4 py-2.5 bg-white/5 border border-white/15 rounded-xl text-white text-sm focus:outline-none focus:border-white/50 appearance-none">
-                <option value="Backpacker">Backpacker</option>
-                <option value="Moderate">Moderate</option>
-                <option value="Luxury">Luxury</option>
+                <option value="Backpacker" className="text-black">Backpacker</option>
+                <option value="Moderate" className="text-black">Moderate</option>
+                <option value="Luxury" className="text-black">Luxury</option>
               </select>
             </div>
           </div>
